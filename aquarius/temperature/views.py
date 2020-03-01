@@ -1,6 +1,5 @@
 from django.forms import model_to_dict
-from django.shortcuts import render
-from django.http import JsonResponse, HttpResponse
+from django.http import JsonResponse
 
 from .models import Temperature
 from .serializer import TemperatureSerializer
