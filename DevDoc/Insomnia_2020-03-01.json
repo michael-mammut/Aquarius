@@ -1,0 +1,98 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2020-03-01T20:39:02.946Z",
+  "__export_source": "insomnia.desktop.app:v7.1.1",
+  "resources": [
+    {
+      "_id": "req_294e6e8205bd44558baa7f4ec05398a4",
+      "authentication": {
+        "prefix": "JWT",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6Im5lcHR1biIsImV4cCI6MTU4MzA5NTA4OSwiZW1haWwiOiJtaWNoYWVsLm1hbW11dEBnbWFpbC5jb20ifQ.fm79pDhhXvTyB-BMYjSW7QtSsUsyQ9CfkLeEAIIaVHc",
+        "type": "bearer"
+      },
+      "body": {},
+      "created": 1583093562690,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1583093562690,
+      "method": "GET",
+      "modified": 1583094799348,
+      "name": "localhost:8000/temperature",
+      "parameters": [],
+      "parentId": "wrk_0550331172024bda98494b67c327f60e",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:8000/temperature/",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_0550331172024bda98494b67c327f60e",
+      "created": 1578042219836,
+      "description": "",
+      "modified": 1578042219836,
+      "name": "Insomnia",
+      "parentId": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_55db065502924477a7fd02e258368fb1",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\"username\":\"neptun\",\"password\":\"neptun\"}"
+      },
+      "created": 1578042246138,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_89e52459e3ed48a7ab003a87e7b7a88c",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1578042246138,
+      "method": "POST",
+      "modified": 1583093967741,
+      "name": "localhost:8000/api-token-auth",
+      "parameters": [],
+      "parentId": "wrk_0550331172024bda98494b67c327f60e",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": false,
+      "url": "http://localhost:8000/api-token-auth/",
+      "_type": "request"
+    },
+    {
+      "_id": "env_ad534a1d9908b21fdb8f2b61a46e89e919e23ee4",
+      "color": null,
+      "created": 1578042219894,
+      "data": {},
+      "dataPropertyOrder": null,
+      "isPrivate": false,
+      "metaSortKey": 1578042219895,
+      "modified": 1578042219894,
+      "name": "Base Environment",
+      "parentId": "wrk_0550331172024bda98494b67c327f60e",
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_ad534a1d9908b21fdb8f2b61a46e89e919e23ee4",
+      "cookies": [],
+      "created": 1578042219905,
+      "modified": 1578042219905,
+      "name": "Default Jar",
+      "parentId": "wrk_0550331172024bda98494b67c327f60e",
+      "_type": "cookie_jar"
+    }
+  ]
+}

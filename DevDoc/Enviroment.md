@@ -18,3 +18,11 @@ If it's not version 3 something will not work in final states
   46 pip3 install Django
   47 py .\manage.py runserver
 ```
+
+
+___
+
+###Links to used frameworks
+https://jpadilla.github.io/django-rest-framework-jwt/#security
+
+I use the tool Insomnia to check my API endpoints. The file `Insomnia_2020-03-01.json` contain the used requests. 

@@ -3,5 +3,5 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-    url(r'^$', views.current_temperature, name="index")
+    url(r'^$', views.TemperatureView.as_view(), name="index")
     ]
