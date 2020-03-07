@@ -24,7 +24,7 @@ SECRET_KEY = 'hesy-%c4f(0fi&bir3em7!o)em(n6uz-9mzm3)7rczmnu*#w+n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['raspberrypi', 'localhost']
 
 # Application definition
 
